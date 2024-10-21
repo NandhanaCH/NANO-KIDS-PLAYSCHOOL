@@ -1,0 +1,185 @@
+@import url('https://fonts.cdnfonts.com/css/coolvetica-2');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*---------------------- NAVBAR ------------------------*/
+
+.logo{
+    width: 220px;
+    height: 50px;
+    border-radius: 20px;
+  }
+  .navbar{
+    background: #000080 ;
+    top: 0;
+    animation: slide-down 2000ms;
+  }
+  .nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color:#FFD700;
+    font-size: 17px;
+  }
+  .a{
+    color:#FF007F;
+  }
+  .nav-link:hover{
+    color:#FF007F
+  }
+  .btn1{
+    height: 40px;
+    width: 100px;
+    border: #FFD700 3px solid;
+    background: rgb(0, 0, 128);
+    border-radius: 20px;
+    color: #FFD700;  
+    font-weight:600;
+    text-decoration: none;
+    text-align: auto;
+    padding-top: 5px;
+  }
+  .btn1:hover{
+    color: #FFD700;
+    background: #FF007F;
+    text-decoration: none;
+  }
+  .dropdown-menu{
+    background-color: #000080;
+    border: 2px solid #FF007F;
+  }
+  .dropdown-item{
+    color: #FFD700;
+    font-family: "Poppins", sans-serif;
+  }
+
+  
+  /*---------------------- NAVBAR -------------------------*/
+h1{
+  margin-top: 100px;
+  font-family: 'Coolvetica', sans-serif;
+    letter-spacing: 10px;
+    color: #000080;
+    padding-bottom: 2px;
+    background-color: #FFD700;
+    text-align: center;
+}
+
+ /*---------------------- ANNOUNCEMENT -------------------------*/
+
+.ann{
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #FFD700;
+    border-radius: 20px;
+    border: 5px solid #000080;
+}
+.ann h2{
+  font-family: 'Coolvetica', sans-serif;
+    letter-spacing: 3px;
+    color: #3131b8;
+    padding-bottom: 2px;
+    font-size: 25px;
+}
+.ann textarea{
+  border: 3px solid #FF007F;
+}
+.form-control:focus {
+  border-color: #FFD700;
+  box-shadow: 0 0 10px #FFD700;
+}
+.btn{
+  margin-top: 20px;
+  background-color: #000080;
+  border: 2px solid #FF007F;
+  color: #FFD700;    
+  font-weight: 700;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+  background-color: #FF007F;
+  border-color: #000080;
+  color: #000080;
+}
+
+  /*---------------------- ANNOUNCEMENT -------------------------*/
+
+  /*---------------------- STUDENT DETAILS -------------------------*/
+
+.std{
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #FFD700;
+    border-radius: 20px;
+    border: 5px solid #000080;
+    margin-bottom: 30px;
+}
+.select{
+  background-color: #000080;
+  padding: 10px;
+  border-radius: 20px;
+  color: #FFD700;
+}
+.select label{
+  font-family: 'Coolvetica', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 5px;
+  letter-spacing: 3px;
+}
+.select select{
+  border: 2px solid #FFD700;
+}
+.select select:focus {
+  border-color: #FFD700;
+  box-shadow: 0 0 10px #FFD700;
+}
+.select button{
+  margin-top: 2px;
+  background-color: #000080;
+  border: 2px solid #FFD700;
+  color: #FFD700;    
+  font-weight: 700;
+  border-radius: 20px;
+}
+.select button:hover {
+  background-color: #FF007F;
+  border-color: #FFD700;
+  color: #FFD700;
+}
+.ll .form-label{
+  color: #000080;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
+
+.image h3{
+  font-family: 'Coolvetica', sans-serif;
+  font-weight: 100;
+  margin-top: 5px;
+  letter-spacing: 3px;
+  font-size: 30px;
+  padding-bottom: 10px;
+  color: #000080;
+}
+.image p{
+  font-family: "Poppins", sans-serif;
+  color: #000080;
+  font-size: 18px;
+}
+.left{
+  padding-left: 150px;
+}
+.photo{
+  border-radius: 20px;
+  padding-right: 70px;
+  padding-top: 80px;
+}
+.photo img{
+  border-radius: 20px;
+  border: 2px solid #000080;
+  width: 1000px;
+}

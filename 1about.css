@@ -1,0 +1,278 @@
+/*--- POPPINS ---*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*--- COOLVITICA ---*/
+@import url('https://fonts.cdnfonts.com/css/coolvetica-2');
+/*--- GAGALIN ---*/
+@import url('https://fonts.cdnfonts.com/css/gagalin');
+
+                  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #000080;
+}
+
+/*---------------------- NAVBAR ------------------------*/
+
+.logo{
+  width: 220px;
+  height: 50px;
+  border-radius: 20px;
+}
+.navbar{
+  background: #000080 ;
+  top: 0;
+  animation: slide-down 2000ms;
+}
+.nav-link{
+  margin-right: 10px;
+  margin-left: 10px;
+  color:#FFD700;
+  font-size: 17px;
+}
+.a{
+  color:#FF007F;
+}
+.nav-link:hover{
+  color:#FF007F
+}
+.btn1{
+  height: 40px;
+  width: 100px;
+  border: #FFD700 3px solid;
+  background: rgb(0, 0, 128);
+  border-radius: 20px;
+  color: #FFD700;  
+  font-weight:600;
+  text-decoration: none;
+  text-align: auto;
+  padding-top: 5px;
+}
+.btn1:hover{
+  color: #FFD700;
+  background: #FF007F;
+  text-decoration: none;
+}
+
+/*---------------------- NAVBAR -------------------------*/
+
+h1{
+  margin-top: 100px;
+  font-family: 'Coolvetica', sans-serif;
+    letter-spacing: 10px;
+    color: #000080;
+    padding-bottom: 2px;
+    background-color: #FFD700;
+    text-align: center;
+}
+
+/*---------------------- CAROUSEL -------------------------*/
+.carousel-inner{
+  width: 1120px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.carousel-caption-top {
+  top: 0;
+  bottom: auto;
+  background-color: rgb(0, 0, 128, 0.5);
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+  left: 0;
+  right: 0;
+}
+.carousel-item h5, p{
+  color: #FFD700;
+}
+
+/*---------------------- CAROUSEL -------------------------*/
+
+/*---------------------- Vision, Mission & Approach Section -------------------------*/
+
+.vma{
+  background-color: #FFD700;
+  padding: 30px;
+  border-radius: 20px;
+  border: 3px solid #000080;
+}
+.vma img{
+  width: 300px;
+  height: 200px;
+}
+.vma .card{
+  border:2px solid#000080
+}
+.vma .card-title{
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.vma .card-text{
+  padding-top: 10px;
+  color: #000080;
+}
+
+/*---------------------- Vision, Mission & Approach Section -------------------------*/
+
+/*---------------------- Why Nano Kids Play School Section -------------------------*/
+
+.why-nano{
+  background-color: #000080;
+}
+.why .text{
+  color: #FFD700;
+  font-weight: 600;
+}
+.why h5{
+  color: #FF007F;
+}
+
+/*---------------------- Why Nano Kids Play School Section -------------------------*/
+
+/*---------------------- PROGRAMS -------------------------*/
+
+.pro .text{
+  color: #000080;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.c1{
+  background-color: #FFD700;
+  border: 2px solid #000080;
+}
+.c1 img{
+  padding: 15px;
+  height:250px;
+  border-radius: 20px;
+  margin-top: 25px;
+}
+.c1 .card-title{
+  color: #000080;
+  padding: 10px;
+  font-weight: 700;
+  padding-left: 0px;
+}
+.c1 .card-text{
+  color: #000080;
+  font-weight: 500;
+}
+.c1 li{
+  color: #FF007F;
+}
+.c2{
+  background-color: #000080;
+  border: 2px solid #FFD700;
+}
+.c2 img{
+  padding: 15px;
+  height:250px;
+  border-radius: 20px;
+  margin-top: 25px;
+}
+.c2 .card-title{
+  color: #FFD700;
+  padding: 10px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+.c2 .card-text{
+  color: #FFD700;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.c2 li{
+  color: #FF007F;
+  padding-left: 10px;
+  font-weight: 300;
+}
+
+/*---------------------- PROGRAMS -------------------------*/
+
+/*---------------------- CONTACT US -------------------------*/
+
+.con h2{
+  font-size: 30px;
+  padding-left: 10px;
+}
+.con p{
+  color: #000080;
+  padding-left: 10px;
+}
+.contact-section {
+  padding: 50px 0;
+}
+.contact-info {
+  background-color: #FFD700;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.book{
+  background-color: #000080;
+  padding: 10px;
+  border-radius: 20px;
+}
+.book h2{
+  color: #FFD700;
+  padding: 5px;
+  text-align: center;
+}
+.book label{
+  color: #FFD700;
+  font-weight: 400;
+}
+.form-control:focus {
+  border-color: #FFD700;
+  box-shadow: 0 0 10px #FFD700;
+}
+.btn{
+  background-color: #FFD700;
+  border: 2px solid #FF007F;
+  color: #000080;    
+  font-weight: 700;
+  transition: background-color 0.3s;
+  width: 400px;
+}
+.btn:hover {
+  background-color: #FF007F;
+  border-color: #FFD700;
+  color: #FFD700;
+}
+.map h3{
+  padding-top: 20px;
+}
+.map-container {
+  width: 80%;
+  height: 400px;
+  margin-top: 20px;
+  border: 0;
+}
+.last{
+  background-color: #000080;
+  height: 100%;
+}
+/*---------------------- CONTACT US -------------------------*/
+
+/*---------------------- GALLERY -------------------------*/
+
+
+.gal p{
+  color: #000080;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 10px;
+  font-size: 20px;
+}
+.gal img{
+  width: 300px;
+  padding-top: 20px;
+}
+.gal img{ 
+  transition: transform .2s; 
+}
+.gal img:hover{
+  transform: scale(1.1); 
+}
